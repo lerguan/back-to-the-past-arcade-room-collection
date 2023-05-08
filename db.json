@@ -1,0 +1,44 @@
+{
+    "gameList": {
+        "1980s":[
+            {
+                "name": "Pac-Man",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 1980,
+                "developer": "Williams",
+                "players": 1
+            },
+            {
+                "name": "Galaga",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 1981,
+                "developer": "Williams",
+                "players": 1
+            },
+            {
+                "name": "Centipede",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 1981,
+                "developer": "Williams",
+                "players": 1
+            },
+            {
+                "name": "Final Fight",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 1989,
+                "developer": "Williams",
+                "players": 1
+            }
+        ],
+        "1990s":[],
+        "2000s":[]
+    }
+}
