@@ -38,7 +38,81 @@
                 "players": 1
             }
         ],
-        "1990s":[],
-        "2000s":[]
+        "1990s":[
+            {
+                "name": "Street Fighter II",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 1991,
+                "developer": "Williams",
+                "players": 1
+            },
+            {
+                "name": "Killer Instinct",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 1994,
+                "developer": "Williams",
+                "players": 1
+            },
+            {
+                "name": "Mortal Kombat II",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 1993,
+                "developer": "Williams",
+                "players": 1
+            },
+            {
+                "name": "Teenage Mutant Ninja Turtles: Turtles in Time",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 1991,
+                "developer": "Williams",
+                "players": 1
+            }
+        ],
+        "2000s":[
+            {
+                "name": "Tekken 5",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 2004,
+                "developer": "Williams",
+                "players": 1
+            },
+            {
+                "name": "House Of The Dead 4",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 2005,
+                "developer": "Williams",
+                "players": 1
+            },
+            {
+                "name": "Virtua Cop 3",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 2003,
+                "developer": "Williams",
+                "players": 1
+            },
+            {
+                "name": "Power Stone 2",
+                "rating": 0.2,
+                "image": "",
+                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "releasedate": 2000,
+                "developer": "Williams",
+                "players": 1
+            }
+        ]
     }
 }
