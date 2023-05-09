@@ -3,115 +3,91 @@
         "1980s":[
             {
                 "name": "Pac-Man",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "image": "https://en.wikipedia.org/wiki/File:Pac-man.png",
+                "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Pac_flyer.png/220px-Pac_flyer.png",
                 "releasedate": 1980,
-                "developer": "Williams",
                 "players": 1
             },
             {
                 "name": "Galaga",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "image": "https://en.wikipedia.org/wiki/File:Galaga.png",
+                "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Galaga_flyer.jpg/220px-Galaga_flyer.jpg",
                 "releasedate": 1981,
-                "developer": "Williams",
                 "players": 1
             },
             {
                 "name": "Centipede",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "image": "https://en.wikipedia.org/wiki/File:Centipede_arcade.png",
+                "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Centipede-arcade-flyer.jpg/220px-Centipede-arcade-flyer.jpg",
                 "releasedate": 1981,
-                "developer": "Williams",
                 "players": 1
             },
             {
                 "name": "Final Fight",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "image": "https://en.wikipedia.org/wiki/File:Final_Fight_gameplay.png",
+                "flyer": "https://en.wikipedia.org/wiki/File:Final_Fight_(flyer).jpg",
                 "releasedate": 1989,
-                "developer": "Williams",
-                "players": 1
+                "players": 2
             }
         ],
         "1990s":[
             {
                 "name": "Street Fighter II",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/220px-Street_Fighter_II_%28arcade%29_screenshot.png",
+                "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/SF2_JPN_flyer.jpg/220px-SF2_JPN_flyer.jpg",
                 "releasedate": 1991,
-                "developer": "Williams",
-                "players": 1
+                "players": 2
             },
             {
                 "name": "Killer Instinct",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "image": "https://en.wikipedia.org/wiki/File:Killer_Instinct_gameplay.jpg",
+                "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Killer_Instinct_flyer.jpg/220px-Killer_Instinct_flyer.jpg",
                 "releasedate": 1994,
-                "developer": "Williams",
-                "players": 1
+                "players": 2
             },
             {
                 "name": "Mortal Kombat II",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Mortal_Kombat_II_Pit_II.png/220px-Mortal_Kombat_II_Pit_II.png",
+                "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Mortal_Kombat_II_boxart.png/220px-Mortal_Kombat_II_boxart.png",
                 "releasedate": 1993,
-                "developer": "Williams",
-                "players": 1
+                "players": 2
             },
             {
                 "name": "Teenage Mutant Ninja Turtles: Turtles in Time",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "image": "https://www.arcade-museum.com/images/109/1090227423.jpg",
+                "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Teenage_Mutant_Ninja_Turtles-_Turtles_in_Time_%28flyer%29.jpg/220px-Teenage_Mutant_Ninja_Turtles-_Turtles_in_Time_%28flyer%29.jpg",
                 "releasedate": 1991,
-                "developer": "Williams",
-                "players": 1
+                "players": 4
             }
         ],
         "2000s":[
             {
-                "name": "Tekken 5",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "name": "Initial D - Arcade Stage",
+                "image": "http://backup.segakore.fr/hitmaker/game/INITIALD/english/ac_ver03/img/course_shomaru.jpg",
+                "flyer": "https://flyers.arcade-museum.com/flyers_video/sega/16001301.jpg",
                 "releasedate": 2004,
-                "developer": "Williams",
                 "players": 1
             },
             {
                 "name": "House Of The Dead 4",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "image": "https://www.arcade-museum.com/images/118/1180246894.jpg",
+                "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/House_of_the_Dead_4_logo.jpg/250px-House_of_the_Dead_4_logo.jpg",
                 "releasedate": 2005,
-                "developer": "Williams",
-                "players": 1
+                "players": 2
             },
             {
                 "name": "Virtua Cop 3",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "image": "https://www.arcade-museum.com/images/106/1061057013.jpg",
+                "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Virtuacop3.jpg/220px-Virtuacop3.jpg",
                 "releasedate": 2003,
-                "developer": "Williams",
-                "players": 1
+                "players": 2
             },
             {
                 "name": "Power Stone 2",
-                "rating": 0.2,
-                "image": "",
-                "video": "/home/pigaming/RetroPie/roms/arcade/snap/algar_l1.mp4",
+                "image": "https://culturedvultures.com/wp-content/uploads/2021/05/power-stone-2-04.jpg",
+                "flyer": "https://flyers.arcade-museum.com/flyers_video/capcom/10008701.jpg",
                 "releasedate": 2000,
-                "developer": "Williams",
-                "players": 1
+                "players": 4
             }
         ]
     }
