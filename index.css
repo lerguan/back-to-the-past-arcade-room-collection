@@ -71,7 +71,7 @@
     align-items: flex-start;
   }
   
-  input,
+  /* input,
   textarea {
     font-size: 1rem;
     border: 1px solid black;
@@ -80,7 +80,7 @@
     margin: 0.25rem 0;
     width: 100%;
   }
-  
+   */
   input[type="submit"] {
     color: aquamarine;
     border: 1px solid white;
@@ -150,6 +150,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    cursor: pointer;
   }
 
   .year-label {
