@@ -55,6 +55,10 @@ function handleOneGameCard(gameData, year) {
     newFlyer.addEventListener('click', () =>{
         gameDetailCard.hidden = !gameDetailCard.hidden
     })
+
+    btn.addEventListener('click', () => {
+        gameDetailCard.hidden = !gameDetailCard.hidden
+    })
 }
 
 function addNewGame() {
