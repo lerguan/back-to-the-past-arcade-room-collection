@@ -17,17 +17,34 @@ function getGames() {
 }
 
 function handleOneGameCard(gameData, year) {
-    let newImg = document.createElement('img')
-    newImg.src = `${gameData.flyer}`
+    let newFlyer = document.createElement('img')
+    newFlyer.src = `${gameData.flyer}`
+
+    let gameDetailCard = document.createElement('div')
+    gameDetailCard.className = 'game-card'
+    gameDetailCard.setAttribute('hidden', true)
+
     let newH2 = document.createElement('h2')
     newH2.setAttribute('class', 'name')
-    newH2.innerText = `${gameData.name}`
+    newH2.innerText = `${gameData.name}` + '  (' +  `${gameData.releasedate}` + ')'
+
+    let newGamePlayImg = document.createElement('img')
+    newGamePlayImg.src = `${gameData.image}`
+
+    let newH3 = document.createElement('h3')
+    newH3.setAttribute('class', 'players')
+    newH3.innerText = `${gameData.players}` + ' players'
+
     let newGameContainer = document.createElement('div')
     newGameContainer.setAttribute('class', 'game-container')
-    newGameContainer.appendChild(newImg)
-    // newGameContainer.appendChild(newH2)
+    newGameContainer.appendChild(newFlyer)
+    newGameContainer.appendChild(gameDetailCard)
+
     let yearLabel = document.getElementById(`year-${year}`)
     yearLabel.append(newGameContainer)
+    newGameContainer.addEventListener('click', () =>{
+        showGameDetails(gameData)
+    })
 }
 
 function addNewGame() {
