@@ -9,11 +9,32 @@ function getGames() {
         fetch(`http://localhost:3000/${i}`)
         .then(resp => resp.json())
         .then((data) => {
+            let numberOfTitles = data.length
+            handleYearSortBox(numberOfTitles, i)
             data.forEach((gameData) => {
             handleOneGameCard(gameData, i)
         })
         })
     }
+}
+
+function handleYearSortBox(numberOfTitles, year) {
+    let newDiv = document.createElement('div')
+    newDiv.class = 'sort_content'
+    newDiv.id = `sort_${year}`
+
+    let newYearDiv = document.createElement('div')
+    newYearDiv.innerText = `${year}`
+    newYearDiv.class = 'year-label'
+
+    let newSumDiv = document.createElement('div')
+    newSumDiv.class = 'sort-span'
+    newSumDiv.innerText = `${numberOfTitles}`
+
+    newDiv.appendChild(newYearDiv)
+    newDiv.appendChild(newSumDiv)
+
+    document.querySelector('.sortBox').appendChild(newDiv)
 }
 
 function handleOneGameCard(gameData, year) {
