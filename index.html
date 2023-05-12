@@ -42,14 +42,14 @@
     
     <!-- Game Details -->
     <div id="game-detail">
-            <div class="year_box">
-                <h2 class="year-label" id="year-1980s">1980s</h2>
+            <div class="year_box" id="year-1980s">
+                <h2 class="year-label">1980s</h2>
             </div>
-            <div class="year_box">
-                <h2 class="year-label" id="year-1990s">1990s</h2>
+            <div class="year_box"  id="year-1990s">
+                <h2 class="year-label">1990s</h2>
             </div>
-            <div class="year_box">
-                <h2 class="year-label" id="year-2000s">2000s</h2>
+            <div class="year_box"  id="year-2000s">
+                <h2 class="year-label">2000s</h2>
             </div>
         <!-- <img class="flyer-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
         <h2 class="name">Insert Name Here</h2>
@@ -62,16 +62,17 @@
     <!-- New Game Form -->
     <form id="new-game">
         <h4>Add New Game</h4>
-        <label for="title">Name: </label>
+        <label for="title">Title: </label>
         <input type="text" name="title" id="new-name" />
         <label for="image">Gameplay Image: </label>
         <input type="text" name="image" id="new-image" />
         <label for="flyer">Flyer Image: </label>
         <input type="text" name="flyer" id="new-flyer" />
-        <label for="players">Players: </label>
-        <input type="number" name="players" id="player-number" />
         <label for="release-date">Release Date: </label>
         <input type="number" name="release-date" id="release-date" />
+        <label for="players">Players: </label>
+        <input type="number" name="players" id="player-number" />
+        <input type="submit" value="Create" />
     </form>
 </body>
 </html>

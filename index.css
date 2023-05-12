@@ -82,9 +82,9 @@
   }
   
   input[type="submit"] {
-    color: white;
+    color: aquamarine;
     border: 1px solid white;
-    background-color: black;
+    background-color: #26272f;
     cursor: pointer;
     transition: all 0.3s;
   }
@@ -97,8 +97,8 @@
     width: 100%;
     padding: 0.25rem;
     margin: 0.5rem 0;
-    color: white;
-    background-color: black;
+    color: aquamarine;
+    background-color: #26272f;
   }
   
 
@@ -137,8 +137,6 @@
   }
 
   .year_box {
-    height: 300px;
-    width: 100%;
     background: #26272f;
     display: flex;
     flex-wrap: wrap;
