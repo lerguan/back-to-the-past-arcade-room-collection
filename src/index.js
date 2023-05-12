@@ -20,18 +20,18 @@ function getGames() {
 
 function handleYearSortBox(numberOfTitles, year) {
     let newDiv = document.createElement('div')
-    newDiv.class = 'sort_content'
+    newDiv.setAttribute('class', 'sort_content')
     newDiv.id = `sort_${year}`
 
-    let newYearDiv = document.createElement('div')
-    newYearDiv.innerText = `${year}`
-    newYearDiv.class = 'year-label'
+    let newYearH3 = document.createElement('h3')
+    newYearH3.innerText = `${year}`
+    newYearH3.setAttribute('class','year-label')
 
     let newSumDiv = document.createElement('div')
-    newSumDiv.class = 'sort-span'
+    newSumDiv.setAttribute('class', 'sort-span')
     newSumDiv.innerText = `${numberOfTitles}`
 
-    newDiv.appendChild(newYearDiv)
+    newDiv.appendChild(newYearH3)
     newDiv.appendChild(newSumDiv)
 
     document.querySelector('.sortBox').appendChild(newDiv)

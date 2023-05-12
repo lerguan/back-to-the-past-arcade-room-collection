@@ -68,21 +68,24 @@
     height: 38px;
     width: 153px;
     background: #26272f;
-    border-radius: 29px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .sort_img {
-    height: 38px;
-    width: 153px;
-    background: #26272f;
-    border-radius: 29px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  .sort-span {
+    display: inline-block;
+    margin-left: 5px;
+    min-width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #ff556e;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0 2px;
+}
 
   img {
     max-width: 100%;
