@@ -151,8 +151,20 @@
     flex-wrap: wrap;
     justify-content: center;
     cursor: pointer;
+    z-index: 1;
   }
 
   .year-label {
     color: aquamarine;
+    padding-right: 0.5rem;
+  }
+
+  .game-card {
+    position: absolute;
+    /* height: 80%;
+    width: 80%; */
+    background-color: #fafafa;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    z-index: 10;
   }
