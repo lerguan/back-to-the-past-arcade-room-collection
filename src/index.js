@@ -54,10 +54,12 @@ function handleOneGameCard(gameData, year) {
     
     newFlyer.addEventListener('click', () =>{
         gameDetailCard.hidden = !gameDetailCard.hidden
+        document.querySelector('#game-detail').style.opacity = '0.5'
     })
 
     btn.addEventListener('click', () => {
         gameDetailCard.hidden = !gameDetailCard.hidden
+        document.querySelector('#game-detail').style.opacity = '1'
     })
 }
 
