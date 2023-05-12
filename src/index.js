@@ -28,21 +28,26 @@ function handleOneGameCard(gameData, year) {
     newH2.setAttribute('class', 'name')
     newH2.innerText = `${gameData.name}` + '  (' +  `${gameData.releasedate}` + ')'
 
+    let btn = document.createElement('button')
+    btn.class = 'close-button'
+    btn.innerText ="X"
+
     let newGamePlayImg = document.createElement('img')
     newGamePlayImg.src = `${gameData.image}`
 
     let newH3 = document.createElement('h3')
     newH3.setAttribute('class', 'players')
-    newH3.innerText = `${gameData.players}` + ' players'
+    newH3.innerText = `${gameData.players}` + ' player(s)'
 
     gameDetailCard.appendChild(newH2)
     gameDetailCard.appendChild(newGamePlayImg)
     gameDetailCard.appendChild(newH3)
+    gameDetailCard.appendChild(btn)
 
     let newGameContainer = document.createElement('div')
     newGameContainer.setAttribute('class', 'game-container')
     newGameContainer.appendChild(newFlyer)
-    newGameContainer.appendChild(gameDetailCard)
+    document.querySelector('body').appendChild(gameDetailCard)
 
     let yearLabel = document.getElementById(`year-${year}`)
     yearLabel.append(newGameContainer)
