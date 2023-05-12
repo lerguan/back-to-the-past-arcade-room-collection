@@ -35,6 +35,10 @@ function handleOneGameCard(gameData, year) {
     newH3.setAttribute('class', 'players')
     newH3.innerText = `${gameData.players}` + ' players'
 
+    gameDetailCard.appendChild(newH2)
+    gameDetailCard.appendChild(newGamePlayImg)
+    gameDetailCard.appendChild(newH3)
+
     let newGameContainer = document.createElement('div')
     newGameContainer.setAttribute('class', 'game-container')
     newGameContainer.appendChild(newFlyer)
@@ -43,8 +47,8 @@ function handleOneGameCard(gameData, year) {
     let yearLabel = document.getElementById(`year-${year}`)
     yearLabel.append(newGameContainer)
     
-    newGameContainer.addEventListener('click', () =>{
-        showGameDetails(gameData)
+    newFlyer.addEventListener('click', () =>{
+        gameDetailCard.hidden = !gameDetailCard.hidden
     })
 }
 
