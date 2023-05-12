@@ -43,6 +43,9 @@ function handleOneGameCard(gameData, year) {
     let yearLabel = document.getElementById(`year-${year}`)
     yearLabel.append(newGameContainer)
     
+    newGameContainer.addEventListener('click', () =>{
+        showGameDetails(gameData)
+    })
 }
 
 function addNewGame() {
