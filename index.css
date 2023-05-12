@@ -67,10 +67,12 @@
   .sort_content {
     height: 38px;
     width: 153px;
-    background: #26272f;
+    background: #101a66;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    position: relative;
   }
 
   .sort-span {
@@ -80,7 +82,7 @@
     height: 16px;
     line-height: 16px;
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
     background-color: #ff556e;
     color: #fff;
     border-radius: 6px;
