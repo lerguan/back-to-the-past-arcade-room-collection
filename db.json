@@ -1,14 +1,6 @@
 {
   "1980s": [
     {
-      "name": "Pac-Man",
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/59/Pac-man.png",
-      "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Pac_flyer.png/220px-Pac_flyer.png",
-      "releasedate": 1980,
-      "players": 1,
-      "id": 1
-    },
-    {
       "name": "Galaga",
       "image": "https://upload.wikimedia.org/wikipedia/en/2/2a/Galaga.png",
       "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Galaga_flyer.jpg/220px-Galaga_flyer.jpg",
@@ -31,6 +23,14 @@
       "releasedate": 1989,
       "players": 2,
       "id": 4
+    },
+    {
+      "name": "Pac-Man",
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/59/Pac-man.png",
+      "flyer": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Pac_flyer.png/220px-Pac_flyer.png",
+      "releasedate": "1980",
+      "players": "1",
+      "id": 5
     }
   ],
   "1990s": [

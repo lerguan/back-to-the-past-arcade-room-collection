@@ -94,7 +94,6 @@ function handleOneGameCard(gameData, year) {
     deleteBtn.addEventListener('click', () => {
         newGameContainer.remove()
         deleteGame(gameData.id, year)
-        updateTitleNumber(gameData.id-1, year)
     })
 }
 
@@ -122,15 +121,20 @@ function addNewGame() {
                 .then((resp) => resp.json())
                 .then((data) => {
                     handleOneGameCard(data, year)
-                    updateTitleNumber(data.id, year)
+                    updateTitleNumber(year)
                 })
             }
         }
     })
 }
 
-function updateTitleNumber(numberOfTitles, year) {
-    document.getElementById(`sort_${year}`).innerText = numberOfTitles
+function updateTitleNumber(year) {
+    fetch(`http://localhost:3000/${year}`)
+    .then((resp) => resp.json())
+    .then((data) =>{
+        console.log(data)
+        document.getElementById(`sort_${year}`).innerText = data.length
+    })
 }
 
 function deleteGame(id, year) {
@@ -142,4 +146,7 @@ function deleteGame(id, year) {
         }
     })
     .then((resp) => resp.json())
+    .then(() => {
+        updateTitleNumber(year)
+    })
 }
