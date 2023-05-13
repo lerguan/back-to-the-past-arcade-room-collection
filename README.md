@@ -19,5 +19,8 @@ On the bottom of the page, there is form where you can input game information an
 ### Show specific game information
 When move the mouse to a specific game flyer image and click that image, the detail information including title, release date, gameplay image and number of player allowed shows up on the center of the screen while the rest of the page is faded.
 
+### Remove specific game from the collection
+When click the `Remove Game` button under each game flyer image, the game is deleted from the page as well as from the server. Meanwhile, the total number of title updates accordingly.
+
 ### Credit
 The game information is from `wikipedia.org`, `arcade-museum.com`, `culturedvultures.com` and `segakore.fr`
