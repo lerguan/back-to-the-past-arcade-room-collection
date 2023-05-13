@@ -94,6 +94,7 @@ function handleOneGameCard(gameData, year) {
     deleteBtn.addEventListener('click', () => {
         newGameContainer.remove()
         deleteGame(gameData.id, year)
+        updateTitleNumber(gameData.id-1, year)
     })
 }
 
@@ -130,4 +131,15 @@ function addNewGame() {
 
 function updateTitleNumber(numberOfTitles, year) {
     document.getElementById(`sort_${year}`).innerText = numberOfTitles
+}
+
+function deleteGame(id, year) {
+    fetch(`http://localhost:3000/${year}/${id}`, {
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        }
+    })
+    .then((resp) => resp.json())
 }
