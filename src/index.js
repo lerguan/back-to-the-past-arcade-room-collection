@@ -90,6 +90,11 @@ function handleOneGameCard(gameData, year) {
         gameDetailCard.hidden = !gameDetailCard.hidden
         document.querySelector('#game-detail').style.opacity = '1'
     })
+
+    deleteBtn.addEventListener('click', () => {
+        newGameContainer.remove()
+        deleteGame(gameData.id, year)
+    })
 }
 
 function addNewGame() {
