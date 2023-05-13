@@ -15,10 +15,13 @@
   }
   
   header {
-    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    background: #4d5aa1;
+    opacity: .8;
+    height: 7rem;
     width: 100%;
-    color: aquamarine;
-    background-color: #26272f;
+    padding: 1rem;
   }
   
   
