@@ -18,3 +18,6 @@ On the bottom of the page, there is form where you can input game information an
 
 ### Show specific game information
 When move the mouse to a specific game flyer image and click that image, the detail information including title, release date, gameplay image and number of player allowed shows up on the center of the screen while the rest of the page is faded.
+
+### Credit
+The game information is from `wikipedia.org`, `arcade-museum.com`, `culturedvultures.com` and `segakore.fr`
