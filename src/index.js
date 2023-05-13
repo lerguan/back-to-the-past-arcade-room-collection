@@ -21,7 +21,7 @@ function getGames() {
 function handleYearSortBox(numberOfTitles, year) {
     let newDiv = document.createElement('div')
     newDiv.setAttribute('class', 'sort_content')
-    newDiv.id = `sort_${year}`
+   
 
     let newYearH3 = document.createElement('h3')
     newYearH3.innerText = `${year}`
@@ -29,6 +29,7 @@ function handleYearSortBox(numberOfTitles, year) {
 
     let newSumDiv = document.createElement('div')
     newSumDiv.setAttribute('class', 'sort-span')
+    newSumDiv.id = `sort_${year}`
     newSumDiv.innerText = `${numberOfTitles}`
 
     newDiv.appendChild(newYearH3)
@@ -108,8 +109,13 @@ function addNewGame() {
                 .then((resp) => resp.json())
                 .then((data) => {
                     handleOneGameCard(data, year)
+                    updateTitleNumber(data.id, year)
                 })
             }
         }
     })
+}
+
+function updateTitleNumber(numberOfTitles, year) {
+    document.getElementById(`sort_${year}`).innerText = numberOfTitles
 }
