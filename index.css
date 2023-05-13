@@ -98,6 +98,12 @@
     border: 5px solid #727591
   }
 
+  img.flyer-img {
+    max-width: 100%;
+    height: 270px;
+    border: 5px solid #727591
+  }
+
   .year_box {
     background: #26272f;
     display: flex;
@@ -125,4 +131,15 @@
     position: absolute;
     background-color: #fafafa;
     z-index: 10;
+  }
+
+  .delete-button {
+    background-color: rgb(155, 54, 180);
+    /* font-size: 5px 16px; */
+    padding: 3px 8px;
+    color: white;
+  }
+
+  .close-button {
+    background-color: orange;
   }
