@@ -42,6 +42,10 @@ function handleOneGameCard(gameData, year) {
     let newFlyer = document.createElement('img')
     newFlyer.src = `${gameData.flyer}`
 
+    let deleteBtn = document.createElement('button')
+    deleteBtn.class = 'delete-button'
+    deleteBtn.innerText = 'Remove Game'
+
     let gameDetailCard = document.createElement('div')
     gameDetailCard.className = 'game-card'
     gameDetailCard.setAttribute('hidden', true)
@@ -69,6 +73,8 @@ function handleOneGameCard(gameData, year) {
     let newGameContainer = document.createElement('div')
     newGameContainer.setAttribute('class', 'game-container')
     newGameContainer.appendChild(newFlyer)
+    newGameContainer.appendChild(deleteBtn)
+    
     document.querySelector('body').appendChild(gameDetailCard)
 
     let yearLabel = document.getElementById(`year-${year}`)
